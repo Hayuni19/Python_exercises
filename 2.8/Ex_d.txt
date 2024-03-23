@@ -1,0 +1,8 @@
+Em que ordem os operadores nas expressões a seguir são avaliados?
+
+    2 * 3**2
+
+1) 3**2 calcula a potência de 3 elevado a 2, resultando em 9.
+2) 2 * 9 multiplica o resultado anterior por 2.
+
+A expressão final será avaliada como 18.

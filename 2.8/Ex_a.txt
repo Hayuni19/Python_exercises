@@ -1,0 +1,10 @@
+
+Em que ordem os operadores nas expressões a seguir são avaliados?
+
+    2 + 3 == 4 or a >= 5
+
+1) 2 + 3 é avaliado primeiro, resultando em 5.
+2) == 4 é avaliado em seguida, resultando em False.
+3) a >= 5 é avaliado por último, mas a ordem depende do valor de a
+
+A expressão final será avaliada como False se a for menor que 5, ou True se a for maior ou igual a 5.

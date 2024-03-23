@@ -1,0 +1,10 @@
+Em que ordem os operadores nas expressões a seguir são avaliados?
+
+    (lst[1] * -3 < -10) in [0, True]
+
+1) lst[1] obtém o elemento no índice 1 da lista lst.
+2) lst[1] * -3 multiplica o elemento obtido pelo número -3.
+3) lst[1] * -3 < -10 compara se o resultado anterior é menor que -10.
+4) (lst[1] * -3 < -10) in [0, True] verifica se o resultado anterior está presente na lista [0, True].
+
+A expressão final será avaliada como True se o resultado de lst[1] * -3 for menor que -10 e estiver na lista [0, True], caso contrário, será False.
